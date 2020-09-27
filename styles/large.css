@@ -1,0 +1,300 @@
+/* HEADER  */
+
+@media(min-width:1200px) {
+    .wrapper header {
+        padding: 60px 0;
+    }
+
+    .wrapper header .hamburger {
+        display: none;
+    }
+}
+
+
+/* NAV  */
+
+@media(min-width:1200px) {
+
+    .wrapper header nav.large-devices-nav {
+        display: block;
+    }
+
+    .wrapper header nav.large-devices-nav ul {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+    }
+
+    .wrapper header nav.large-devices-nav ul li {
+        margin: 0 20px;
+    }
+
+    .wrapper header nav.large-devices-nav ul li a {
+        color: white;
+        font-size: 2rem;
+        text-decoration: none;
+        transition: .2s linear;
+    }
+
+    .wrapper header nav.large-devices-nav ul li a:hover {
+        color: gold;
+    }
+
+    .wrapper nav.small-devices-nav {
+        display: none;
+    }
+}
+
+
+/* SECTION ABOUT  */
+
+@media(min-width:1200px) {
+    .wrapper .about .text-about-us {
+        top: calc(55vh + 15px);
+    }
+
+    .wrapper .about .text-about-us {
+        padding: 10% 15%;
+    }
+
+    .wrapper .about .text-about-us h2 {
+        font-size: 4.1rem;
+    }
+
+    .wrapper .about .text-about-us p {
+        font-size: 2.6rem;
+    }
+}
+
+
+/* SECTION PROMO  */
+
+@media(min-width:1200px) {
+    .wrapper .promo {
+        height: 60vh;
+        padding: 0 0 5% 0;
+    }
+
+    .wrapper .promo h3 {
+        margin-bottom: 5%;
+        font-size: 3.2rem;
+    }
+
+    .wrapper .promo p {
+        font-size: 3rem;
+    }
+
+    .wrapper .promo .time {
+        padding: 0 25%;
+    }
+
+    .wrapper .promo .time div {
+        flex-basis: 10%;
+        height: 75px;
+    }
+
+    .wrapper .promo .time div p span.time-number {
+        font-size: 3.2rem;
+        line-height: 69px;
+    }
+
+    .wrapper .promo .time div p span.time-text {
+        font-size: 2.2rem;
+        line-height: 40px;
+    }
+}
+
+
+/* SECTION OFFERS  */
+
+@media(min-width:1200px) {
+    .wrapper .offers {
+        padding: 10% 2% 0 2%;
+    }
+
+    .wrapper .offers .all-offers {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .wrapper .offers .all-offers .first-offer,
+    .wrapper .offers .all-offers .second-offer,
+    .wrapper .offers .all-offers .third-offer {
+        position: relative;
+        flex-basis: 30%;
+        margin-bottom: 0;
+        padding: 3% 2%;
+    }
+
+    .wrapper .offers .all-offers .first-offer h3,
+    .wrapper .offers .all-offers .second-offer h3,
+    .wrapper .offers .all-offers .third-offer h3 {
+        font-size: 2.7rem;
+    }
+
+    .wrapper .offers .all-offers h3:before {
+        font-size: 6.2rem;
+    }
+
+    .wrapper .offers .all-offers p {
+        font-size: 1.7rem;
+    }
+
+    .wrapper .offers .all-offers p.price {
+        font-size: 2.4rem;
+    }
+
+    .wrapper .offers .all-offers button {
+        font-size: 2rem;
+    }
+}
+
+
+/* SECTION OUR CLUBS  */
+
+@media(min-width:1200px) {
+    .wrapper .our-clubs {
+        padding: 10% 5% 0 5%;
+    }
+
+    .wrapper .our-clubs .first-club {
+        padding: 5% 0 0 0;
+    }
+
+    .wrapper .our-clubs h3 {
+        margin-bottom: 2%;
+    }
+
+    .wrapper .our-clubs p.description {
+        margin-bottom: 2%;
+    }
+
+    .wrapper .our-clubs .first-club p.adress {
+        margin-bottom: 1%;
+    }
+
+
+    .wrapper .our-clubs .first-club p.phone {
+        margin-bottom: 1%;
+    }
+
+    .wrapper .our-clubs .gallery {
+        width: 70%;
+        margin: 5% auto;
+    }
+
+    .wrapper .our-clubs iframe {
+        width: 100%;
+        display: block;
+    }
+
+    .wrapper .our-clubs .second-club {
+        padding: 5% 0 0 0;
+    }
+
+    .wrapper .our-clubs .second-club .gallery {
+        width: 50%;
+        margin: 5% auto;
+    }
+}
+
+
+/* SECTION TEAM  */
+
+@media(min-width:1200px) {
+    .wrapper .team {
+        padding: 10% 5% 0 5%;
+    }
+
+    .wrapper .team h2 {
+        font-size: 4.5rem;
+    }
+
+    .wrapper .team p.text-team {
+        padding: 0 10%;
+        font-size: 2.2rem;
+    }
+
+    .wrapper .team .all-coaches div {
+        width: 35%;
+    }
+
+    .wrapper .team .all-coaches div p.coach-of-the-month {
+        box-shadow: 0 0 10px 1px #222;
+        right: -8%;
+        font-size: 2.5rem;
+    }
+
+    .wrapper .team .all-coaches :nth-child(1) p.name,
+    .wrapper .team .all-coaches :nth-child(3) p.name,
+    .wrapper .team .all-coaches :nth-child(5) p.name {
+        box-shadow: 0 0 10px 1px white;
+        font-size: 2.8rem;
+    }
+
+    .wrapper .team .all-coaches :nth-child(2) p.name,
+    .wrapper .team .all-coaches :nth-child(4) p.name,
+    .wrapper .team .all-coaches :nth-child(6) p.name {
+        box-shadow: 0 0 10px 1px white;
+        font-size: 2.8rem;
+    }
+}
+
+
+/* SECTION CONTACT  */
+
+@media(min-width:1200px) {
+    .wrapper .contact {
+        padding: 10% 5% 5% 5%;
+        color: white;
+    }
+
+    .wrapper .contact h2 {
+        font-size: 4.5rem;
+    }
+
+    .wrapper .contact form {
+        margin: 0 35%;
+    }
+
+    .wrapper .contact form input {
+        margin-bottom: 5%;
+        padding: 12px 7px;
+    }
+
+    .wrapper .contact form :nth-child(3) {
+        padding: 12px 7px 120px 7px;
+    }
+
+    .wrapper .contact form button {
+        width: 30%;
+    }
+}
+
+
+/* MAIL ICON  */
+
+@media(min-width:1200px) {
+    .mail {
+        right: -10%;
+        width: 14%;
+    }
+
+    .mail.active {
+        width: 14%;
+    }
+}
+
+
+/* FOOTER  */
+
+@media(min-width:1200px) {
+    footer {
+        padding: 2% 10%;
+    }
+
+    footer p.text-footer span.my-name {
+        padding: 1% 0 4% 0;
+    }
+}

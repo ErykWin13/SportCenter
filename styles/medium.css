@@ -1,0 +1,292 @@
+/* HEADER  */
+
+@media(min-width:1024px) {
+    .wrapper header {
+        padding: 70px 0;
+        border-bottom: 2px solid gold;
+    }
+
+    .wrapper header h1 {
+        border-right: 3px solid gold;
+        border-left: 3px solid gold;
+    }
+}
+
+
+/* NAV  */
+
+@media(min-width:1024px) {
+    .wrapper nav.small-devices-nav span {
+        font-size: 4rem;
+    }
+
+    .wrapper nav.small-devices-nav ul li a {
+        font-size: 3.2rem;
+    }
+
+    .wrapper nav.small-devices-bav ul li a:before {
+        font-size: 5.5rem;
+        letter-spacing: 10px;
+    }
+}
+
+
+/* SECTION ABOUT  */
+
+@media(min-width:1024px) {
+    .wrapper .about .text-about-us h2 {
+        margin-bottom: 3%;
+        font-size: 3.8rem;
+    }
+
+    .wrapper .about .text-about-us p {
+        font-size: 2.8rem;
+    }
+}
+
+
+/* SECTION PROMO  */
+
+@media(min-width:1024px) {
+    .wrapper .promo {
+        margin: 10% 0 0 0;
+    }
+
+    .wrapper .promo h3 {
+        font-size: 3.1rem;
+    }
+
+    .wrapper .promo p {
+        font-size: 2.8rem;
+    }
+
+    .wrapper .promo .time div {
+        flex-basis: 10%;
+        height: 70px;
+        border: 3px solid #ccc;
+    }
+
+    .wrapper .promo .time div p span.time-number {
+        font-size: 3rem;
+        line-height: 64px;
+    }
+
+    .wrapper .promo .time div p span.time-text {
+        font-size: 2.2rem;
+        line-height: 40px;
+    }
+}
+
+
+/* SECTION OFFERS  */
+
+@media(min-width:1024px) {
+    .wrapper .offers {
+        padding: 15% 5% 0 5%;
+    }
+
+    .wrapper .offers .all-offers .first-offer h3,
+    .wrapper .offers .all-offers .second-offer h3,
+    .wrapper .offers .all-offers .third-offer h3 {
+        font-size: 4rem;
+    }
+
+
+    .wrapper .offers .all-offers .third-offer h3 span {
+        margin-right: 1%;
+    }
+
+    .wrapper .offers .all-offers h3:before {
+        font-size: 9rem;
+    }
+
+    .wrapper .offers .all-offers p {
+        font-size: 2.3rem;
+    }
+
+    .wrapper .offers .all-offers p.price {
+        font-size: 3.2rem;
+    }
+
+    .wrapper .offers .all-offers button {
+        border: 3px solid #ccc;
+        font-size: 2.5rem;
+    }
+
+    .wrapper .offers .all-offers div button:after {
+        top: -3px;
+        height: calc(100% + 6px);
+    }
+}
+
+
+/* SECTION OUR CLUBS  */
+
+@media(min-width:1024px) {
+    .wrapper .our-clubs {
+        padding: 15% 5% 0 5%;
+    }
+
+    .wrapper .our-clubs h2 {
+        font-size: 5rem;
+    }
+
+    .wrapper .our-clubs h3 {
+        margin-bottom: 3%;
+        font-size: 3.3rem;
+    }
+
+    .wrapper .our-clubs p.description {
+        margin-bottom: 3%;
+        font-size: 2rem;
+    }
+
+    .wrapper .our-clubs .first-club p.adress {
+        margin-bottom: 2%;
+        font-size: 2rem;
+    }
+
+    .wrapper .our-clubs .first-club p.adress span {
+        font-size: 2.3rem;
+    }
+
+    .wrapper .our-clubs .first-club p.phone {
+        margin-bottom: 2%;
+        font-size: 2rem;
+    }
+
+    .wrapper .our-clubs .first-club p.phone span {
+        font-size: 2.3rem;
+    }
+
+    .wrapper .our-clubs .gallery {
+        margin: 7% 0;
+    }
+
+    .wrapper .our-clubs .first-club .gallery p {
+        margin: 5% 0;
+        font-size: 2.5rem;
+    }
+
+    .wrapper .our-clubs iframe {
+        height: 280px;
+    }
+}
+
+
+/* SECTION TEAM  */
+
+@media(min-width:1024px) {
+    .wrapper .team {
+        padding: 15% 5% 0 5%;
+    }
+
+    .wrapper .team h2 {
+        font-size: 4.8rem;
+    }
+
+    .wrapper .team p.text-team {
+        font-size: 2.3rem;
+    }
+
+    .wrapper .team .all-coaches div {
+        border: 3px solid white;
+    }
+
+    .wrapper .team .all-coaches div p.coach-of-the-month {
+        font-size: 2.3rem;
+    }
+
+    .wrapper .team .all-coaches :nth-child(1) p.name,
+    .wrapper .team .all-coaches :nth-child(3) p.name,
+    .wrapper .team .all-coaches :nth-child(5) p.name {
+        font-size: 2.3rem;
+    }
+
+    .wrapper .team .all-coaches :nth-child(2) p.name,
+    .wrapper .team .all-coaches :nth-child(4) p.name,
+    .wrapper .team .all-coaches :nth-child(6) p.name {
+        font-size: 2.3rem;
+    }
+}
+
+
+/* SECTION CONTACT  */
+
+@media(min-width:1024px) {
+    .wrapper .contact {
+        padding: 15% 5% 5% 5%;
+    }
+
+    .wrapper .contact h2 {
+        font-size: 4.2rem;
+    }
+
+    .wrapper .contact form {
+        margin: 0 25%;
+    }
+
+    .wrapper .contact form input {
+        border: 3px solid #ccc;
+    }
+
+    .wrapper .contact form button {
+        border: 3px solid #ccc;
+    }
+}
+
+
+/* MAIL ICON  */
+
+@media(min-width:1024px) {
+    .mail {
+        right: -21.5%;
+        width: 30%;
+        height: 60px;
+    }
+
+    .mail.active {
+        width: 30%;
+        height: 60px;
+    }
+
+    .mail p.icon-mail span {
+        font-size: 4.2rem;
+        text-shadow: 4px 4px 10px black;
+    }
+
+    .mail p.text-mail {
+        font-size: 1.9rem;
+        text-shadow: 4px 4px 10px black;
+    }
+}
+
+
+/* FOOTER  */
+
+@media(min-width:1024px) {
+    footer {
+        border-top: 2px solid gray;
+    }
+
+    footer p.text-footer {
+        font-size: 2.1rem;
+    }
+
+    footer .social-media p.text-social-media {
+        font-size: 2.1rem;
+    }
+
+    footer .social-media .facebook,
+    footer .social-media .instagram,
+    footer .social-media .twitter {
+        width: 35px;
+        height: 35px;
+    }
+
+    footer .social-media .facebook span,
+    footer .social-media .instagram span,
+    footer .social-media .snapchat span {
+        font-size: 2rem;
+    }
+}
